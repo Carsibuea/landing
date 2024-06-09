@@ -110,8 +110,8 @@ body {
     max-width: 100%;
   }
   .tentang1 img {
-    max-width: 100%;
-    margin: auto;
+    max-width: -80%;
+    /* margin: auto; */
   }
   .perlu {
     margin-top: -100px;
@@ -132,8 +132,8 @@ body {
 .tentang1 img {
   max-width: 100%;
 }
-.perlu {
-  margin-top: -90px;
+.kart {
+  /* margin-top: 0px; */
   width: 100%;
 }
 /* .tentang img {
