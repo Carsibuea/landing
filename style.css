@@ -81,11 +81,34 @@ body {
   margin-top: -200px;
   width: 100%;
 }
-
+.narasumber {
+  background-color: #fff;
+  background: linear-gradient(45deg, rgb(255, 255, 255) 30%, rgb(219, 9, 9));
+  color: #010101;
+  position: relative;
+  display: block;
+  display: flex;
+}
+.jadwal {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  background-color: #f6d0d0;
+  height: 100%;
+  margin-top: -1px;
+  width: 100%;
+  /* background: linear-gradient(45deg, #fff 30%, rgb(219, 9, 9));
+  background-clip: unset;
+  background-blend-mode: color; */
+}
+iframe {
+  width: 100%;
+}
+.harga {
+  width: 100%;
+}
+.harga img {
+  width: 100%;
+}
 /* utama */
-/*
-  */
-/* */
 /* laptop */
 @media (max-width: 1336px) {
   html {
@@ -96,7 +119,7 @@ body {
     max-width: 100%;
   }
   .perlu {
-    margin-top: -150 px;
+    margin-top: -200 px;
     width: 100%;
   }
 }
@@ -117,11 +140,15 @@ body {
     margin-top: -100px;
     max-width: 100%;
   }
-  /* .kart {
+  .narasumber img {
+    width: 100%;
+  }
+  .jadwal {
+    width: 100%;
+  }
+  iframe {
     max-width: 100%;
-    height: 5
-    margin: 0;
-  } */
+  }
 }
 /* mobile phone */
 @media (max-width: 450px) {
@@ -136,36 +163,24 @@ body {
   /* margin-top: 0px; */
   width: 100%;
 }
-/* .tentang img {
-  max-width: 100%; */
-
-/* .hero {
-    min-height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    background-image: url("./img/utama.jpg");
-
-    background-position: center;
-    position: relative;
-  } */
-
-/*  */
-
-/* }
-
-
-.tentang1::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  height: 30%;
-  width: 100%; */
-/* background: linear-gradient(0deg, rgba(51, 112, 153, 1) 8%, #0099ff00 20%); */
-/* bottom: 0;
+.narasumber {
+  position: relative;
+  /* display: block; */
+  display: flex;
 }
+.narasumber img {
+  width: 100%;
+}
+.jadwal {
+  width: 100%;
+}
+iframe {
+  max-width: 100%;
+}
+/* .simply-countdown {
+  width: 100%;
+} */
+/*  
 .bt {
   margin-top: -1px;
 }
@@ -176,32 +191,9 @@ body {
   height: 480px;
 }
 
-/* .narasumber {
-  background-color: #fff;
-  background: linear-gradient(45deg, rgb(255, 255, 255) 30%, rgb(219, 9, 9));
-  color: #010101; */
-/* position: relative;
-  display: block; */
-/* } */
-/* .narasumber::after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(0, rgba(231, 77, 77, 1), rgba(255, 255, 255, 1) 60%);
-  top: 0;
-  clip-path: text;
-}*/
-/* .jadwal {
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
-  background-color: #f6d0d0;
-  height: 100%;
-  margin-top: -1px;
-  /* background: linear-gradient(45deg, #fff 30%, rgb(219, 9, 9));
-  background-clip: unset;
-  background-blend-mode: color; */
-/* } */
+
+
+
 /* .bulat { */
 /* margin-top: -10px; */
 /* } */
@@ -317,33 +309,5 @@ body {
   .simply-countdown > .simply-section {
     padding: 30px;
     margin: 5px;
-  }
-} */
-/* tablet */
-/* @media (max-width: 768px) {
-  html {
-    font-size: 65%;
-  }
-  .simply-countdown > .simply-section {
-    padding: 30px;
-    margin: 5px;
-  }
-  .mynavbar .nav-link {
-    font-size: 2rem;
-    text-align: center;
-  }
-} */
-/* phone */
-/* @media (max-width: 576px) {
-  html {
-    font-size: 60%;
-  }
-  .simply-countdown > .simply-section {
-    padding: 30px;
-    margin: 3px;
-  }
-  .tentang2 {
-    display: none;
-    float: none;
   }
 } */
