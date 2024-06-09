@@ -60,16 +60,28 @@ body {
   margin-right: 1rem;
   margin-top: 1rem;
   mix-blend-mode: difference;
-  /* font-weight: 100; */
 }
-.pernah {
-  padding: 1.4rem 7%;
-  max-width: 100%;
-}
+
 .tentang {
   background-color: rgb(51, 112, 153);
   margin-top: -18px;
+  /* width: 100%; */
 }
+.tentang1 {
+  background-color: rgb(51, 112, 153);
+  padding: 1.4rem 7%;
+  max-width: 100%;
+}
+.tentang img {
+  margin: auto;
+}
+.perlu {
+  background-color: aqua;
+  background: linear-gradient(90deg, #95abab 30%, aqua);
+  margin-top: -200px;
+  width: 100%;
+}
+
 /* utama */
 /*
   */
@@ -78,6 +90,10 @@ body {
 @media (max-width: 1336px) {
   html {
     font-size: 100%;
+  }
+  .pernah img {
+    padding: 1.4rem 7%;
+    max-width: 100%;
   }
 }
 /* tablet */
@@ -89,32 +105,37 @@ body {
     padding: 1.4rem 7%;
     max-width: 100%;
   }
-  /* .hero {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-image: url("./img/utama.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+  .tentang1 img {
+    max-width: 100%;
+    margin: auto;
+  }
+  .perlu {
+    margin-top: -90px;
+    max-width: 100%;
+  }
+  /* .kart {
+    max-width: 100%;
+    height: 5
+    margin: 0;
   } */
 }
 /* mobile phone */
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 70%;
   }
-  .pernah img {
-    padding: 1.4rem 7%;
-    max-width: 100%;
-  }
-  /* .tentang img {
-    width: 100%;
-    margin-top: -18px;
-  } */
-  .hero {
+}
+.tentang1 img {
+  max-width: 100%;
+}
+.perlu {
+  /* margin-top: -50px; */
+  width: 100%;
+}
+/* .tentang img {
+  max-width: 100%; */
+
+/* .hero {
     min-height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -125,17 +146,13 @@ body {
 
     background-position: center;
     position: relative;
-  }
-}
+  } */
 
 /*  */
 
 /* }
 
-.tentang1 {
-  background-color: rgb(51, 112, 153);
-  margin-top: -5px;
-}
+
 .tentang1::after {
   content: "";
   display: inline-block;
@@ -154,11 +171,7 @@ body {
 .carousel-item img {
   height: 480px;
 }
-.perlu {
-  background-color: aqua;
-  background: linear-gradient(90deg, #95abab 30%, aqua);
-  margin-top: -150px;
-} */
+
 /* .narasumber {
   background-color: #fff;
   background: linear-gradient(45deg, rgb(255, 255, 255) 30%, rgb(219, 9, 9));
