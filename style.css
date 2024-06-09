@@ -73,7 +73,7 @@ body {
 /* laptop */
 @media (max-width: 1336px) {
   html {
-     font-size: 100%; */
+    font-size: 100%;
   }
 }
 /* tablet */
@@ -81,15 +81,39 @@ body {
   html {
     font-size: 75%;
   }
+  .hero {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url("./img/utama.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
 }
 /* mobile phone */
 @media (max-width: 450px) {
   html {
     font-size: 50%;
   }
-  .tentang img {
-   width: 100%;
+  /* .tentang img {
+    width: 100%;
     margin-top: -18px;
+  } */
+  .hero {
+    /* min-height: 100vh;*/
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex;
+    align-items: center;
+    background-image: url("./img/utama.jpg");
+   
+
+    background-position: center;
+    position: relative; */
   }
 }
 
