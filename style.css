@@ -105,6 +105,14 @@ iframe {
 .harga img {
   width: 100%;
 }
+.artikel {
+  clip-path: polygon(50% 0%, 100% 9%, 100% 100%, 0 97%, 0 8%);
+  background-color: chocolate;
+}
+.artikel img {
+  width: 100%;
+}
+
 /* utama */
 /* laptop */
 @media (max-width: 1336px) {
@@ -138,7 +146,7 @@ iframe {
     max-width: 100%;
   }
   .narasumber img {
-    mamx-width: 100%;
+    max-width: 100%;
   }
   .jadwal {
     width: 100%;
@@ -193,13 +201,7 @@ iframe {
 /* .bulat { */
 /* margin-top: -10px; */
 /* } */
-/* .register { */
-/* clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%); */
-/* } */
-/* .artikel { */
-/* clip-path: polygon(50% 0%, 100% 9%, 100% 100%, 0 97%, 0 8%); */
-/* background-color: chocolate; */
-/* } */
+
 /* .articel { */
 /* clip-path: polygon(50% 0%, 100% 9%, 100% 100%, 0 97%, 0 8%); */
 /* background-color: rgb(216, 124, 58); */
